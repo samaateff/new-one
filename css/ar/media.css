@@ -1,0 +1,282 @@
+@media (min-width: 1200px) {
+    /*.form_search{*/
+    /*    width: 50vw;*/
+    /*}*/
+    #mobile_header{
+        display: none !important;
+    }
+    .header_contact{
+        margin-right: 5rem;
+    }
+}
+@media (max-width: 1199px) {
+    .form_search{
+        width: 95%;
+    }
+    #desktop_header{
+        display: none !important;
+    }
+    .header_contact{
+        margin-right: 1rem;
+        padding-top: 2%;
+    }
+    .form_search button {
+        right: 94%;
+    }
+}
+@media (max-width: 450px) {
+    .header_contact{
+       font-size: 0.8rem;
+        margin-right: 0.1rem;
+    }
+    .form_search button {
+        right: 84%;
+    }
+    .form_search input,.form_search2 input{
+        font-size: 0.8rem;
+    }
+    .bx_md {
+        font-size: 1rem;
+    }
+    .bx_lg {
+        font-size: 1.5rem;
+    }
+    .font_1_1rem{
+        font-size: 1rem;
+    }
+    .mob_icons_center{
+        justify-content: center;
+    }
+    .prod_desc{
+        font-size: 12px !important;
+    }
+    .background_image{
+        height: 26vh !important;
+    }
+    .background_content{
+        height: 20vh !important;
+    }
+    .background_card{
+        margin: 0 1.5rem !important;
+    }
+    .profile_img {
+        height: 11vh !important;
+        width: 25vw !important;
+    }
+    .card-title{
+        font-size: 0.8rem;
+    }
+    .card-body{
+        height: 25vh !important;
+    }
+    .sale{
+        right: 66% !important;
+    }
+    .category_div,.custom_select{
+        height: 5vh !important;
+    }
+    .category_span{
+        right: 38% !important;
+    }
+    .mobile_logo{
+        width: 23vw;
+        height: 5vh;
+    }
+    .store_profile {
+        height: 13vh !important;
+    }
+    .store_profile .store_img {
+        height: 9vh !important;
+        width: 19vw !important;
+        right: 27% !important;
+    }
+    .store_name {
+        right: 25% !important;
+    }
+    .mb-5rem {
+        margin-bottom: 3rem !important;
+    }
+    .fav_icon,.share_icon {
+        font-size: 1.4rem !important;
+    }
+    .md_font {
+        font-size: 0.8rem;
+    }
+    .large_font {
+        font-size: 24px;
+    }
+    .medium_font {
+        font-size: 20px;
+    }
+    .quantity_title {
+        right: 65%;
+    }
+    .quantity_input {
+        right: 55%;
+    }
+    .image_modal_content {
+        height: 350px;
+    }
+    .additional_img {
+        height: 10vh;
+    }
+}
+@media (max-width: 375px) {
+    .profile_img {
+        height: 11vh !important;
+        width: 22vw !important;
+    }
+    .card-body {
+        /* height: 20vh !important; */
+    }
+    .category_div, .custom_select {
+        height: 7vh !important;
+    }
+}
+
+@media only screen and (max-width: 821px) and (min-width: 766px){
+    .profile_img {
+        top: 61% !important;
+        height: 12vh !important;
+        width: 17vw !important;
+    }
+    .custom_select,.category_div{
+        height: 5vh !important;
+    }
+    .card-body {
+        height: 14vh !important;
+    }
+    .background_image,.background_content{
+        height: 20vh !important;
+    }
+    p{
+        font-size: 0.9rem !important;
+    }
+    .store_profile {
+        height: 15vh !important;
+    }
+    .store_profile .store_img {
+        height: 9vh !important;
+        width: 12vw !important;
+        top: 62% !important;
+        right: 30% !important;
+    }
+    .store_name {
+        top: 126% !important;
+    }
+    .mobile_logo {
+        height: 10vh !important;
+    }
+    .card-body {
+        height: 20vh !important;
+    }
+}
+@media only screen and (max-width: 770px) and (min-width: 766px){
+    .mobile_logo {
+        height: 5vh !important;
+    }
+    .store_profile {
+        height: 16vh !important;
+    }
+    .store_profile .store_img {
+        height: 10vh !important;
+        width: 11vw !important;
+    }
+    .store_name {
+        top: 136% !important;
+        right: 33% !important;
+
+    }
+
+}
+@media only screen and (max-width: 815px) and (min-width: 811px){
+    .store_profile {
+        height: 33vh !important;
+    }
+    .store_profile .store_img {
+        height: 23vh !important;
+        width: 11vw !important;
+    }
+    .store_name {
+        top: 136% !important;
+    }
+    .card-body {
+        height: 20vh !important;
+    }
+
+}
+
+@media only screen and (max-width: 1181px) and (min-width: 1023px) {
+    .profile_img {
+        height: 22vh !important;
+    }
+    .card-body {
+        height: 20vh !important;
+    }
+    .store_profile .store_img {
+        height: 14vh !important;
+        width: 10vw !important;
+        top: 73% !important;
+        right: 27% !important;
+    }
+    .store_name {
+        top: 136% !important;
+    }
+}
+
+@media only screen and (max-width: 1025px) and (min-width: 1023px){
+    .background_image,.background_content{
+        height: 36vh !important;
+    }
+}
+@media only screen and (max-width: 844px) and (min-width: 811px){
+    .background_image,.background_content{
+        height: 45vh !important;
+    }
+    .profile_img {
+        top: 64% !important;
+        height: 30vh !important;
+    }
+    .custom_select, .category_div {
+        height: 14vh !important;
+    }
+    .card-body {
+        /* height: 35vh !important; */
+    }
+    .mb-5rem {
+        margin-bottom: 3rem !important;
+    }
+}
+@media only screen and (max-width: 933px) and (min-width: 895px){
+    .card-body {
+        /* height: 34vh !important; */
+    }
+    .store_profile .store_img {
+        height: 21vh !important;
+        width: 10vw !important;
+        top: 62% !important;
+        right: 32% !important;
+    }
+    .mb-5rem {
+        margin-bottom: 3rem !important;
+    }
+}
+@media only screen and (max-width: 821px) and (min-width: 820px){
+    .card-body {
+        height: 12vh !important;
+    }
+}
+@media only screen and (max-width: 700px) and (min-width: 666px){
+    .store_profile .store_img {
+        height: 23vh !important;
+        width: 13vw !important;
+        top: 62% !important;
+        right: 35% !important;
+    }
+    .mb-5rem {
+        margin-bottom: 3rem !important;
+    }
+    .card-body {
+        height: 25vh !important;
+    }
+}
